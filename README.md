@@ -1,8 +1,5 @@
 # Word Art Editor
 
-## Disclaimer
-This is not a complete discreption. For full description refer to the pdf posted on canvas.
-
 ## Description
 
 This word art editor has two modes: an editing mode and a formatting mode.  In the editing mode, the user can modify a 10 character string, by sending those characters to the MSP432 over UART.  In the formatting mode, the user can modify the appearance of the string on the LCD display by send different sequences of characters to the MSP432 over UART.
@@ -95,11 +92,3 @@ Type 't' at the UART terminal to change the font type. Then type one of the foll
 Examples:
 
 * The sequence 't', 's' would set the font type to computer modern sans-serif font.
-
-## Course
-
-ECE 2534
-
-## Author
-
-Sajan Ronvelwala
